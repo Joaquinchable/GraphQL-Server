@@ -1,0 +1,34 @@
+{
+  "name": "graphql-servidor",
+  "version": "1.0.0",
+  "description": "GraphQl Servidor",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel index.js -d dist",
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joaquinchable/GraphQL-Server.git"
+  },
+  "author": "Joaquin Chable",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joaquinchable/GraphQL-Server/issues"
+  },
+  "homepage": "https://github.com/Joaquinchable/GraphQL-Server#readme",
+  "dependencies": {
+    "expres": "0.0.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.4.2",
+    "nodemon": "^1.19.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6"
+  }
+}
